@@ -105,7 +105,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: https://denigit5.github.io/First-Capstone/
 
 <!--
 Example:
