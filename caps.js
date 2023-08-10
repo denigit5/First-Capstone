@@ -71,45 +71,47 @@ const seeMoreButton = document.querySelector('.see-more');
 const seeLessButton = document.querySelector('.see-less');
 const activeSpeaker = document.querySelector('.speakerA');
 
-seeMoreButton.addEventListener('click', () => {
-  activeSpeaker.style.display = 'block';
-  seeLessButton.style.display = 'flex';
-  seeMoreButton.style.display = 'none';
-});
-const activeSpeake = document.querySelector('.speakerB');
-seeMoreButton.addEventListener('click', () => {
-  activeSpeake.style.display = 'block';
-  seeLessButton.style.display = 'flex';
-  seeMoreButton.style.display = 'none';
-});
-const activeSpeak = document.querySelector('.speakerC');
-seeMoreButton.addEventListener('click', () => {
-  activeSpeak.style.display = 'block';
-  seeLessButton.style.display = 'flex';
-  seeMoreButton.style.display = 'none';
-});
-const activeSpea = document.querySelector('.speakerD');
-seeMoreButton.addEventListener('click', () => {
-  activeSpea.style.display = 'block';
-  seeLessButton.style.display = 'flex';
-  seeMoreButton.style.display = 'none';
-});
-seeLessButton.addEventListener('click', () => {
-  activeSpeaker.style.display = 'none';
-  seeMoreButton.style.display = 'flex';
-  seeLessButton.style.display = 'none';
-  seeMoreButton.style.padding = '5%';
-});
-seeLessButton.addEventListener('click', () => {
-  activeSpeaker.style.display = 'none';
-  seeLessButton.style.display = 'none';
-});
-seeLessButton.addEventListener('click', () => {
-  activeSpeake.style.display = 'none';
-});
-seeLessButton.addEventListener('click', () => {
-  activeSpeak.style.display = 'none';
-});
-seeLessButton.addEventListener('click', () => {
-  activeSpea.style.display = 'none';
-});
+document.addEventListener('DOMContentLoaded', () => {
+  seeMoreButton.addEventListener('click', () => {
+    activeSpeaker.style.display = 'block';
+    seeLessButton.style.display = 'flex';
+    seeMoreButton.style.display = 'none';
+  });
+  const activeSpeake = document.querySelector('.speakerB');
+  seeMoreButton.addEventListener('click', () => {
+    activeSpeake.style.display = 'block';
+    seeLessButton.style.display = 'flex';
+    seeMoreButton.style.display = 'none';
+  });
+  const activeSpeak = document.querySelector('.speakerC');
+  seeMoreButton.addEventListener('click', () => {
+    activeSpeak.style.display = 'block';
+    seeLessButton.style.display = 'flex';
+    seeMoreButton.style.display = 'none';
+  });
+  const activeSpea = document.querySelector('.speakerD');
+  seeMoreButton.addEventListener('click', () => {
+    activeSpea.style.display = 'block';
+    seeLessButton.style.display = 'flex';
+    seeMoreButton.style.display = 'none';
+  });
+  seeLessButton.addEventListener('click', () => {
+    activeSpeaker.style.display = 'none';
+    seeMoreButton.style.display = 'flex';
+    seeLessButton.style.display = 'none';
+    seeMoreButton.style.padding = '5%';
+  });
+  seeLessButton.addEventListener('click', () => {
+    activeSpeaker.style.display = 'none';
+    seeLessButton.style.display = 'none';
+  });
+  seeLessButton.addEventListener('click', () => {
+    activeSpeake.style.display = 'none';
+  });
+  seeLessButton.addEventListener('click', () => {
+    activeSpeak.style.display = 'none';
+  });
+  seeLessButton.addEventListener('click', () => {
+    activeSpea.style.display = 'none';
+  });
+})

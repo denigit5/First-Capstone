@@ -14,9 +14,8 @@ body {
 .mobile-version {
   display: flex;
   background-color: #ffff;
-  position: fixed;
   width: 100%;
-  height: 100px;
+  height: 60px;
   z-index: 50;
 }
 
@@ -85,9 +84,7 @@ body {
 }
 
 .logo img {
-  margin-left: 40%;
-  margin-top: 6%;
-  transform: scale(0.7);
+  display: none;
 }
 
 #homepage {
@@ -103,7 +100,7 @@ body {
   color: orangered;
   margin-left: 4%;
   margin-bottom: 1rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .heading {
@@ -463,13 +460,20 @@ body {
   background-color: rgb(192, 191, 190);
 }
 
+.version2 {
+  height: 75px;
+  margin-top: 8rem;
+  margin-bottom: -3rem;
+  background-color: #e6e9f0;
+}
+
 #about-section {
   background-image: url(images/images/hero-bg-mobile.png);
   background-position-x: -60%;
   background-position-y: 120%;
   background-size: contain;
   border: 2px solid rgb(233, 231, 231);
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 
 .heading2 {
@@ -639,12 +643,28 @@ body {
   line-height: 20px;
   width: 40%;
   margin-left: 6%;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  color: #f4f6f8;
+  line-height: 25px;
+}
+
+#reserved {
+  background-color: #282b32;
+  height: 180px;
+  display: flex;
+}
+
+.mylogo2 {
+  transform: scale(0.8);
+  color: black;
 }
 
 .reservation {
-  margin-left: 50%;
-  margin-top: -8rem;
+  margin-left: 5%;
+  margin-top: 1rem;
+  color: #f4f6f8;
+  font-size: 15px;
+  width: 50%;
 }
 
 .partners2,
@@ -670,6 +690,8 @@ body {
 
   .desktop-version {
     display: flex;
+    min-width: 100%;
+    margin-right: -2rem;
   }
 
   .mobile-version {
@@ -686,7 +708,6 @@ body {
     height: 30px;
     padding-top: 4px;
     padding-left: 60%;
-    position: fixed;
     z-index: 50;
   }
 
@@ -700,7 +721,8 @@ body {
 
   .desk-logo {
     margin-right: 15rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    padding-left: 10rem;
   }
 
   .box2 ul {
@@ -711,43 +733,42 @@ body {
 
   #second-nav {
     margin-top: 2rem;
-    padding-left: 10rem;
+    margin-bottom: -5rem;
+    margin-left: -126rem;
     height: 75px;
     background-color: #ffff;
-    background-size: 100%;
-    min-width: 100%;
+    width: 100%;
     display: flex;
     list-style: none;
-    position: fixed;
     z-index: 50;
   }
 
   .box1 {
-    background-position-x: 5rem;
+    background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
   }
 
   .box2 {
-    background-position-x: 5rem;
+    background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
   }
 
   .box3 {
-    background-position-x: 4rem;
+    background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
   }
 
   .box4 {
-    background-position-x: 5rem;
+    background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
   }
 
   .box5 {
-    background-position-x: 4rem;
+    background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
   }
@@ -776,12 +797,12 @@ body {
   .box:hover {
     border: 3px solid #ffff;
     transition: 0.3s;
-    transform: scale(0.88);
+    transform: scale(0.95);
   }
 
   #second-nav li {
     margin-right: 3rem;
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   #second-nav li a {
@@ -989,11 +1010,33 @@ body {
     line-height: 30px;
   }
 
-  .desk-reservation {
+  #reserved {
+    background-color: #282b32;
+    height: 170px;
+    margin-bottom: 10rem;
+  }
+
+  .logo3 {
+    margin-left: 10rem;
+    width: 20%;
+    color: #ffff;
+    line-height: 28px;
+    justify-content: center;
+  }
+
+  .mylogo {
+    border: 4px solid#0e0909;
+    margin-top: 0.8rem;
+
+  }
+
+  .reservation {
     width: 40%;
     font-size: 17px;
-    font-weight: 600;
-    margin-bottom: -5rem;
+    font-weight: 500;
+    color: #ffff;
+    line-height: 30px;
+    margin-left: 12%;
   }
 
   .desk-partners {
@@ -1004,6 +1047,7 @@ body {
   #about-section {
     background-size: 10%;
     background-position-y: -50rem;
+    padding-top: 2rem;
   }
 
   .about-hello {
@@ -1011,10 +1055,12 @@ body {
   }
 
   .heading2 {
-    margin-left: 18%;
+    margin-left: 1%;
+    margin-top: -2rem;
     width: 100%;
     font-size: 55px;
     line-height: 60px;
+    text-align: center;
   }
 
   .paragraph-2 {
