@@ -799,7 +799,7 @@ body {
   }
 
   .campaign {
-    margin-left: 0rem;
+    margin-left: -1rem;
     margin-top: 0.1rem;
     padding: 10px;
     padding-bottom: 14px;
