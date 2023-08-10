@@ -11,10 +11,10 @@
       "scss/at-rule-no-unknown":  [
         true,
         {
-          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+          "ignoreAtRules": ["tailwind", "empty-lines", "apply", "variants", "responsive", "screen"]
         }
       ],
       "csstree/validator": true
     },
-    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
+    "ignoreFiles": ["build/**", "empty-lines/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
   }
