@@ -21,7 +21,7 @@
 
 # 📖 [Capstone_Project_1] <a name="about-project"></a>
 
-**[Capstone_project]** is a project based learning activity that is carried out at the end of evry module.
+**Capstone project** is a project based learning activity that is carried out at the end of evry module.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -121,8 +121,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@denigit5](https://github.com/denigit5)
@@ -135,8 +133,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] Real life projects and experiences
 - [ ] Live demo
@@ -157,9 +153,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project do not hesitate to contact me whether it's for correction or you want to learn something.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,13 +162,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Mivroverse team for making this project possible
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
