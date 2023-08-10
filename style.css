@@ -630,13 +630,12 @@ body {
   line-height: 20px;
   width: 40%;
   margin-left: 6%;
-  margin-top: 15rem;
+  margin-top: 3rem;
 }
 
 .reservation {
   margin-left: 50%;
-  margin-top: -8.8rem;
-  margin-bottom: 2rem;
+  margin-top: -8rem;
 }
 
 .partners2,
@@ -647,7 +646,7 @@ body {
 
 .mylogo {
   border: 5px solid rgb(0, 0, 0);
-  width: 50px;
+  width: 60px;
   padding: 5px;
   border-radius: 28px;
 }
