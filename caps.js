@@ -114,4 +114,4 @@ document.addEventListener('DOMContentLoaded', () => {
   seeLessButton.addEventListener('click', () => {
     activeSpea.style.display = 'none';
   });
-})
+});
