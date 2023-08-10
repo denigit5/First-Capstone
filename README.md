@@ -52,7 +52,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://google.com): To be included.
+- [Live Demo Link] To be included.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +163,7 @@ If you like this project do not hesitate to contact me whether it's for correcti
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Mivroverse team for making this project possible
+I would like to thank Cindy Shinfor together with Microverse team for  making the project possible and a great journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

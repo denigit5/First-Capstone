@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.hamburger').addEventListener('click', () => {
+    document.querySelector('.links').classList.add('links-active');
+    document.querySelector('.links').classList.remove('links-inactive');
+  });
+  document.querySelector('.close').addEventListener('click', () => {
+    document.querySelector('.links').classList.remove('links-active');
+    document.querySelector('.links').classList.add('links-inactive');
+  });
+  document.querySelector('.nav-link1').addEventListener('click', () => {
+    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
+    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
+  });
+  document.querySelector('.nav-link2').addEventListener('click', () => {
+    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
+    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
+  });
+  document.querySelector('.nav-link3').addEventListener('click', () => {
+    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
+    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
+  });
+});
 const speakers = [
   {
     name: 'Benjamin Zulu',
@@ -45,28 +67,6 @@ for (let i = 0; i < speakers.length; i += 1) {
   const speaker6 = `<li class="speaker6 speakerD"><div class="stock1"><img src="${speakers[i].image1}" alt=""></div><div class="karugu"><img src="images/images/caroline karugu.jpg" alt=""></div> <h4 class="karugu1">Dr.Caroline W. Karugu.</h4> <div class="zulu-heading">Nyeri Deputy Governor Dr. Caroline Karugu </div><p class="zulu-par">An Investments & Finance expert who has had the opportunity to study various disciplines, in various schools and work in various professions in various companies in both the private and public sectors</p></li>`;
   featuredSpeakers.innerHTML = speaker1 + speaker2 + speaker3 + speaker4 + speaker5 + speaker6;
 }
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('.hamburger').addEventListener('click', () => {
-    document.querySelector('.links').classList.add('links-active');
-    document.querySelector('.links').classList.remove('links-inactive');
-  });
-  document.querySelector('.close').addEventListener('click', () => {
-    document.querySelector('.links').classList.remove('links-active');
-    document.querySelector('.links').classList.add('links-inactive');
-  });
-  document.querySelector('.nav-link1').addEventListener('click', () => {
-    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
-    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
-  });
-  document.querySelector('.nav-link2').addEventListener('click', () => {
-    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
-    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
-  });
-  document.querySelector('.nav-link3').addEventListener('click', () => {
-    document.querySelector('.navbar-links').classList.remove('navbar-links-active');
-    document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
-  });
-});
 const seeMoreButton = document.querySelector('.see-more');
 const seeLessButton = document.querySelector('.see-less');
 const activeSpeaker = document.querySelector('.speakerA');
