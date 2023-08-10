@@ -967,8 +967,8 @@ body {
     border-color: #b93d34;
     width: 3%;
     height: 0;
-    margin-left: -5.5%;
-    margin-top: 3.2rem;
+    margin-left: 34%;
+    margin-top: -11rem;
   }
 
   .partner-list {
@@ -976,7 +976,8 @@ body {
   }
 
   .partners2 {
-    color: #5e6674;
+    color: #f4f6f8;
+    margin-bottom: -0.1rem;
   }
 
   .desklog3 {
@@ -994,10 +995,8 @@ body {
   }
 
   .desk-partners {
-    margin-left: -70%;
-    margin-top: 5rem;
-    transform: scale(0.6);
-    display: flex;
+    margin-top: -8rem;
+    margin-left: -40%;
   }
 
   #about-section {
@@ -1127,30 +1126,8 @@ body {
     margin-left: 2rem;
   }
 
-  .partners {
-    color: #414246;
-  }
-
-  .logo3 {
-    margin-top: -10rem;
-    color: #ffff;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 30px;
-    width: 30%;
-  }
-
-  .mylogo {
-    margin-bottom: -2rem;
-    margin-top: 1rem;
-    border-color: rgb(249, 250, 250);
-    width: 70px;
-  }
-
-  .reservation {
-    margin-top: -10rem;
-    color: #ffff;
-    font-size: 20px;
-    line-height: 34px;
+  .partners img {
+    transform: scale(0.88);
+    margin-left: -5em;
   }
 }
