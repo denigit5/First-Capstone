@@ -724,12 +724,6 @@ body {
     padding-left: 10rem;
   }
 
-  .box2 ul {
-    height: 100%;
-    width: 78%;
-    text-align: center;
-  }
-
   #second-nav {
     margin-top: 2rem;
     margin-bottom: -5rem;
@@ -746,12 +740,15 @@ body {
     background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
+    flex-direction: column;
   }
 
   .box2 {
     background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
+    flex-direction: column;
+    text-align: center;
   }
 
   .box3 {
@@ -764,33 +761,16 @@ body {
     background-position-x: center;
     background-position-y: 8px;
     overflow: hidden;
+    flex-direction: column;
+    text-align: center;
   }
 
   .box5 {
     background-position-x: center;
-    background-position-y: 8px;
     overflow: hidden;
-  }
-
-  .box1 ul {
-    height: 100%;
-    width: 88%;
-    display: flex;
-  }
-
-  .box3 ul {
-    height: 100%;
-    width: 78%;
-  }
-
-  .box4 ul {
-    height: 100%;
-    width: 78%;
-  }
-
-  .box5 ul {
-    height: 100%;
-    width: 78%;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
   }
 
   .box:hover {
@@ -883,17 +863,18 @@ body {
   }
 
   .activity {
-    padding-left: 2rem;
-    margin-top: 3.8rem;
+    margin-top: 4rem;
     text-align: center;
+    margin-left: 2rem;
   }
 
   .angagement {
     margin-top: 6rem;
-    margin-left: -3rem;
+    margin-left: -4rem;
     width: 85%;
     height: 150px;
     margin-right: 10%;
+    text-align: center;
   }
 
   .angagement1 {
